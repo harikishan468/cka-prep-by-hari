@@ -15,28 +15,28 @@ Below are the steps to be followed for creating the cluster using Kind.
 3) To check if the installation was successful by running the below commands
    1) go version should give some similar output based on the version installed.
       Execute the below command in Terminal.
-       **go version**
+       **go version** </br>
 
       <img width="489" alt="image" src="https://github.com/harikishan468/cka-prep-by-hari/assets/18546196/27140578-37ce-4dc4-ae42-431b8e904f40">
    3) Kind version should give output based on the version installed.
       Execute the below command in Terminal.
 
-      **kind version**
+      **kind version**</br>
 
       <img width="489" alt="image" src="https://github.com/harikishan468/cka-prep-by-hari/assets/18546196/59b7cf74-84c5-4796-834a-9c4a71ed5dac">
    4) To check if Docker is installed properly or not, check using the below command.
-      **docker version**
+      **docker version**</br>
 
       <img width="556" alt="image" src="https://github.com/harikishan468/cka-prep-by-hari/assets/18546196/e637e3d5-c6cc-4a05-911b-ecfdef8a2cfb">
 4) Once the above step is successful, then create a cluster using the below command.
-      **kind create cluster**
+      **kind create cluster** </br>
       <img width="945" alt="image" src="https://github.com/harikishan468/cka-prep-by-hari/assets/18546196/f0fcc074-5a2f-4b3b-add3-de3681a47e47">
 5) Use the below command to get the cluster info.
-     **kubectl cluster-info --context kind-kind**
-     **Kubernetes control plane is running at https://127.0.0.1:<PORTNO>
-     CoreDNS is running at https://127.0.0.1:<PORTNO>/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
-     To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.**
-
+     **kubectl cluster-info --context kind-kind** </br>
+     **Kubernetes control plane is running at https://127.0.0.1:<PORTNO> </br>
+     CoreDNS is running at https://127.0.0.1:<PORTNO>/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy </br>
+     To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.** </br>
+ 
 
 
 
