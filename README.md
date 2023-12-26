@@ -36,6 +36,9 @@ Below are the steps to be followed for creating the cluster using Kind.
      **Kubernetes control plane is running at https://127.0.0.1:50001 </br>
      CoreDNS is running at https://127.0.0.1:50001/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy </br>
      To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.** </br>
+  
+   The above details wouldn't be same, as it depends on the port which gets assigned to it.
+   
  
 
 
