@@ -15,6 +15,7 @@ Below are the steps to be followed for creating the cluster using Kind.
 3) To check if the installation was successful by running the below commands
    1) go version should give some similar output based on the version installed.
       Execute the below command in Terminal.</br>
+      </br>
        **go version** </br>
 
       <img width="489" alt="image" src="https://github.com/harikishan468/cka-prep-by-hari/assets/18546196/27140578-37ce-4dc4-ae42-431b8e904f40">
