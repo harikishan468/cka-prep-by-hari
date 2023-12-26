@@ -14,7 +14,7 @@ Below are the steps to be followed for creating the cluster using Kind.
    3) Install **Kind** using the steps based on your OS as shown on this website: https://phoenixnap.com/kb/kubernetes-kind
 3) To check if the installation was successful by running the below commands
    1) go version should give some similar output based on the version installed.
-      Execute the below command in Terminal.
+      Execute the below command in Terminal.</br>
        **go version** </br>
 
       <img width="489" alt="image" src="https://github.com/harikishan468/cka-prep-by-hari/assets/18546196/27140578-37ce-4dc4-ae42-431b8e904f40">
@@ -31,10 +31,10 @@ Below are the steps to be followed for creating the cluster using Kind.
 4) Once the above step is successful, then create a cluster using the below command.
       **kind create cluster** </br>
       <img width="945" alt="image" src="https://github.com/harikishan468/cka-prep-by-hari/assets/18546196/f0fcc074-5a2f-4b3b-add3-de3681a47e47">
-5) Use the below command to get the cluster info.
+5) Use the below command to get the cluster info.</br>
      **kubectl cluster-info --context kind-kind** </br>
-     **Kubernetes control plane is running at https://127.0.0.1:<PORTNO> </br>
-     CoreDNS is running at https://127.0.0.1:<PORTNO>/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy </br>
+     **Kubernetes control plane is running at https://127.0.0.1:50001 </br>
+     CoreDNS is running at https://127.0.0.1:50001/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy </br>
      To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.** </br>
  
 
